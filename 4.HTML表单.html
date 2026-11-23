@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML表单</title>
+</head>
+<body>
+    <form>
+        <!-- <span>用户名：</span>
+        <input type="text" placeholder="请输入文字"> <br>
+        <span>密码：</span>
+        <input type="text" value="请输入文字"> <br> -->
+
+        <label for="username">用户名：</label>
+        <input type="text" id="username" placeholder="请输入文字"> <br>
+        <label for="password">密码：</label>
+        <input type="password" id="password" placeholder="请输入密码"> <br>
+        <!--label的属性for与input的id一一对应-->
+
+        <label for="">性别</label>
+        <input type="radio" name="gender">男  <!--name=“gender” 实现单选的效果，没有的话可以多选-->
+        <input type="radio" name="gender">女
+        <input type="radio" name="gender">其他
+        <br>
+
+        <label>爱好：</label>
+        <input type="checkbox" name="hobby">唱歌
+        <input type="checkbox" name="hobby">跳舞
+        <input type="checkbox" name="hobby">RAP
+        <input type="checkbox" name="hobby">篮球
+        <br>
+
+        <input type="submit">
+        <input type="submit" value="上传"
+    </form>
+
+    <form action="#"><!--填的数据放到哪里去，因为还没有服务器API，所以填#占位-->
+
+    </form>
+</body>
+</html>
